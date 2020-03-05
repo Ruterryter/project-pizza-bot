@@ -1,5 +1,5 @@
 body {
-  background-image: url("pizza.jpeg");
+  background-image: url("./charles-deluvio-unsplash-mobile.jpg");
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@ h1 {
   font-family: 'Cabin', sans-serif;
   font-size: 36px;
   color: #0aea9c;
-  margin-top:50px;
+  margin-top:300px;
 }
 
 button {
@@ -30,3 +30,24 @@ button {
   color: #0aea9c;
 }
 
+@media (min-width: 1024px) {
+  header {
+    background-image: url("./charles-deluvio-unsplash-desktop.jpg");
+  }
+
+  h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 72px;
+    color: #0aea9c;
+    margin-top:50px;
+  }
+
+  #orderReply {
+    display: block;
+    font-family: 'Cabin', sans-serif;
+    font-size: 36px;
+    color: #0aea9c;
+    background-color: aliceblue;
+    width: fit-content;
+    }
+  }
